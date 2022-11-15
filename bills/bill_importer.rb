@@ -6,7 +6,7 @@ class BillImporter
   end
 
   def check_products
-    puts 'Insert your products with this format: quantity [imported] product-name at unit-price'
+    puts 'Insert your products with this format :quantity [:imported] :product_name at :price'
     puts "Finish with the word 'end' when you have done"
 
     get_the_products
@@ -23,7 +23,7 @@ class BillImporter
         if matched_data = input_data.match(/(\d+) (imported )?([a-zA-Z ]+) at (\d+\.?\d*)/)
           @products << build_product(matched_data)
         else
-          puts 'Please use the format: quantity [imported] product-name at unit-price'
+          puts 'Please use the format :quantity [:imported] :product_name at :price'
         end
       end
     end
