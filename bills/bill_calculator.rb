@@ -7,6 +7,8 @@ class BillCalculator
   def initialize(products)
     @products = products
     @bill = []
+    # support/food.txt is a short dictionary for words to check if the product contains in its name a food
+    # the dictionary should be increased of find another method to make this evaluation
     @food_list = File.readlines('support/food.txt').map(&:strip)
     @before_taxes = 0
     @total = 0
