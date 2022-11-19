@@ -5,7 +5,7 @@ https://gist.github.com/safplatform/792314da6b54346594432f30d5868f36
 
 You can clone or download the code, go to the directory and just type `ruby main.rb`
 You can insert the products following the format suggested: 
-`:quantity [:imported] :product_name at :price`
+`:quantity [imported] :product_name at :price`
 
 Where:
 - quantity: is the number of products
