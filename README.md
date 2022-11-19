@@ -10,7 +10,7 @@ You can insert the products following the format suggested:
 Where:
 - quantity: is the number of products
 - imported(optional): Specifies if the product is imported
-- product-name: the product name or a shor description
+- product-name: the product name or a short description
 - price: the product unit price
 
 ![image](https://user-images.githubusercontent.com/12085981/201809130-d3e27922-e4e1-45bb-902d-0d11de7efece.png)
